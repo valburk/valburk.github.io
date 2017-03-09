@@ -13,7 +13,7 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>Val Burk Portfolio</title>
+    <title>Val Burk's Portfolio</title>
     <!--REQUIRED STYLE SHEETS-->
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -56,15 +56,15 @@
             <!-- Collect the nav links for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a>
+                    <li id="homebutton"><a href="#home">HOME</a>
                     </li>
-                    <li><a href="#about">RESUME</a>
-                    </li>
-
-                    <li><a href="#price-sec">PORTFOLIO</a>
+                    <li id="aboutbutton"><a href="#about">RESUME</a>
                     </li>
 
-                    <li><a href="#contact-sec">CONTACT</a>
+                    <li id="portbutton"><a href="#price-sec">PORTFOLIO</a>
+                    </li>
+
+                    <li id="contactbutton" ><a href="#contact-sec">CONTACT</a>
                     </li>
                     <li><a href="#"><strong>e-mail:</strong>  valerieburk@aim.com</a>
                     </li>
@@ -84,7 +84,7 @@
                 <img src="assets/img/fullcropvb.png" style ="padding-top: 60px; width: 180px;">
                 <h1 id="fname" class="head-main">Val Burk</h1>
                 <h2 class="head-sub-main">Web Developer</h2>
-                <a class="btn btn-danger btn-lg " href="#about">Read More </a><a class="btn btn-default btn-lg" href="#contact-sec">Contact </a>
+                <a class="btn btn-danger btn-lg " href="#about">Resume</a><a class="btn btn-default btn-lg" href="#contact-sec">Contact </a>
                 <div class="head-last"></div>
 
             </div>
@@ -242,7 +242,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>Portfolio</h1>
+                    <h1> Web Portfolio</h1>
                     <h4>
                         <strong> And when I have portfolio items, they can go here.
                         </strong>
@@ -258,43 +258,43 @@
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Portfolio Item 1</li>
-                            <li class="main-price">Image</li>
-                            <li>Description</li>
+                            <li class="plan-head">Simple Simoné Game</li>
+                            <li class="main-price"><img id=simple src="assets/img/Simple.png" height="130" width="255"> </li>
+                            <li>A Simple Simon game made using jQuery, JS, HTML, and CSS</li>
                             <li class="bottom">
-                                <a href="#contact-sec" class="btn btn-default">VIEW</a>
+                                <a href="simplesimon.html" class="btn btn-default">VIEW</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Portfolio Item 2</li>
-                            <li class="main-price">Image</li>
-                            <li>Description</li>
+                            <li class="plan-head">Weather App</li>
+                            <li class="main-price"><img src="assets/img/weather.png" height="130" width="255"></li>
+                            <li>Exercise that includes the Google Maps and OpenWeatherMap API's</li>
                             <li class="bottom">
-                                <a href="#contact-sec" class="btn btn-default">VIEW</a>
+                                <a href="weather.html" class="btn btn-default">VIEW</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Portfolio Item 3</li>
-                            <li class="main-price">Image</li>
-                            <li>Description</li>
+                            <li class="plan-head">JavaScript Calculator</li>
+                            <li class="main-price"><img src="assets/img/calc.png" height="130" width="70"></li>
+                            <li>A calculator that uses JavaScript, HTML, and CSS</li>
                             <li class="bottom">
-                                <a href="#contact-sec" class="btn btn-default">VIEW</a>
+                                <a href="calculator.html" class="btn btn-default">VIEW</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Portfolio Item 4</li>
-                            <li class="main-price">Image</li>
-                            <li>Description</li>
+                            <li class="plan-head">Blog Template</li>
+                            <li class="main-price"><img src="assets/img/blog.png" height="130" width="255"></li>
+                            <li> A Blog template exercise that untilizes <br> AJAX </li>
                             <li class="bottom">
-                                <a href="#contact-sec" class="btn btn-default">VIEW</a>
+                                <a href="blog.hml" class="btn btn-default">VIEW</a>
                             </li>
                         </ul>
                     </div>
@@ -311,7 +311,7 @@
 
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Lorem ipsum dolor sit</h1>
+                    <h1 id="pictitle">Lorem ipsum dolor sit</h1>
                     <h4>
                         <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                          Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
@@ -397,7 +397,7 @@
     <!--End Contact Section -->
     <!--footer Section -->
     <div class="for-full-back " id="footer">
-        2014 www.yourdomain.com | All Right Reserved
+
          
     </div>
     <!--End footer Section -->

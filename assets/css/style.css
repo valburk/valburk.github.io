@@ -42,7 +42,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     line-height:120px;
     text-transform:uppercase;
-     color: #83696B;
+    color: gray;
+    font-weight: bold;
+    font-size: 40px;
 }
 h3 {
     line-height:30px;
@@ -99,7 +101,7 @@ section {
    background-color:#B2BAC2!important;
 }
 .main-color-red {
-    color: #69494b;
+    color: #68969C;
 }
 /*=======================================
     HEADER STYLES
@@ -140,8 +142,9 @@ nav {
 }
 
 .navbar-inverse {
-background-color: #7FB7BE;
+background-color: #99BFC4;
 border-color: #68969C;
+opacity: .95;
 }
 
 /*=======================================
@@ -175,7 +178,7 @@ min-height:300px;
 
 
 /*=======================================
-    PRICING STYLES
+    Portfolio STYLES
 ==================================================*/
 
 
@@ -185,6 +188,7 @@ min-height:300px;
     margin: 30px 0px;
     list-style: none;
     text-align: center;
+    border-radius: 10px;
   
     -webkit-transition: all 0.2s ease;
        -moz-transition: all 0.2s ease;
@@ -203,10 +207,12 @@ min-height:300px;
 .plan li {
     padding: 15px 0px;
     color: #434749;
-    border-top: 1px dashed #000;
+    border-top: 0px dashed #000;
 }
 
 .plan li.plan-head {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
    padding: 15px 0px;
 background-color: #585858;
 color: #FFFFFF;
@@ -217,7 +223,7 @@ border: none;
    }
 
 .plan li.main-price {
-   padding: 25px 0px;
+   padding: 0px 0px;
 background-color: #BEBEBE;
 color: #7e4a5a;
 border: none;
@@ -262,5 +268,28 @@ min-height:300px;
     color:#fff;
     padding:20px 50px 20px 50px;
     text-align:right;
+}
+#homebutton:hover{
+  background-color: #406c76;
+  border-radius: 10px;
+}
+#aboutbutton:hover{
+  background-color: #406c76;
+  border-radius: 10px;
+}
+#portbutton:hover{
+  background-color: #406c76;
+  border-radius: 10px;
+}
+#contactbutton:hover{
+  background-color: #406c76;
+  border-radius: 10px;
+}
+
+#pictitle{
+  opacity: 1.0;
+  color: #99BFC4;
+  font-weight: bold;
+
 }
 
