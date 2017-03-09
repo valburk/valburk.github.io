@@ -159,6 +159,7 @@ box-shadow: none;
 border: 0;
 padding: 50px 20px 30px 20px;
 margin-bottom:20px;
+border-radius: 5px;
 }
 #Parallax-one {
     background-image: url("../img/2.jpg");
@@ -291,5 +292,9 @@ min-height:300px;
   color: #99BFC4;
   font-weight: bold;
 
+}
+.viewbut:hover{
+  background-color: #99BFC4;
+  border-color:#99BFC4; 
 }
 
