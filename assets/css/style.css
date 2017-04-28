@@ -45,10 +45,11 @@ h1 {
     color: gray;
     font-weight: bold;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 h3 {
     line-height:30px;
-    padding-bottom:20px;
+    padding-bottom:10px;
 }
 h4 {
     line-height:40px;
@@ -172,9 +173,13 @@ min-height:300px;
 }
 .for-parallax-one {
     
-    color:#fff;
+    color:white;
     padding:40px 20px 40px 20px;
     font-size:25px;
+}
+
+.about{
+  font-size:20px;
 }
 
 
@@ -247,6 +252,18 @@ min-height:300px;
     font-size:25px;
 }
 
+.resume {
+margin-bottom:10px;
+font-size:25px;
+color:black;
+
+}
+
+.resume:link{
+  margin-bottom:10px;
+  color:black;
+  font-size:25px;
+}
 /*=======================================
     CONTACT STYLES
 ==================================================*/
