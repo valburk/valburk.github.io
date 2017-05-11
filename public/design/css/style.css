@@ -289,19 +289,23 @@ color:black;
 }
 #homebutton:hover{
   background-color: #406c76;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 #aboutbutton:hover{
   background-color: #406c76;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 #portbutton:hover{
   background-color: #406c76;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 #contactbutton:hover{
   background-color: #406c76;
-  border-radius: 10px;
+  border-radius: 1px;
+}
+#designbutton:hover{
+  background-color: #406c76;
+  border-radius: 1px;
 }
 
 #pictitle{
