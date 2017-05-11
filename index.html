@@ -1,29 +1,43 @@
+<!-- 
+DESKTOP VERSION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+ -->
 <!DOCTYPE html>
-
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-
+<!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Val Burk's Portfolio</title>
-
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Val Burk Portfolio</title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-
+    <!-- FONTAWESOME STYLE CSS -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
- >
+    <!-- VEGAS STYLE CSS -->
+    <link href="assets/scripts/vegas/jquery.vegas.min.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />
-
+    <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css' />
 
     <link href="assets/css/portfolios.css" rel="stylesheet" />
-    <style> @font-face {src: url('assets/fonts/ruluko-Regular.ttf'); } </style>
-    <style>
-@import url('https://fonts.googleapis.com/css?family=Ruluko');
-</style>
-
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
     <!-- Navigation -->
@@ -36,22 +50,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#home"> <img src= "assets/img/VBL.png" style="width: 50px; margin-bottom: 50px;"> </a>
+                <a class="navbar-brand" href="htttp://www.binarytheme.com"> <img src= "assets/img/VBL.png" style="width: 50px; margin-bottom: 50px;"> </a>
             </div>
             <!-- Collect the nav links for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li id="homebutton"><a href="#home">HOME</a>
+                    <li><a href="#home">HOME</a>
                     </li>
-                    <li id="aboutbutton"><a href="#about">RESUME</a>
-                    </li>
-
-                    <li id="portbutton"><a href="#price-sec">PORTFOLIO</a>
+                    <li><a href="#about">RESUME</a>
                     </li>
 
-                    <li id="contactbutton" ><a href="#contact-sec">CONTACT</a>
+                    <li><a href="#price-sec">PORTFOLIO</a>
                     </li>
-                    <li><a href="#"><strong>e-mail:</strong>  valanneburk@gmail.com</a>
+
+                    <li><a href="#contact-sec">CONTACT</a>
+                    </li>
+                    <li><a href="#"><strong>e-mail:</strong>  valerieburk@aim.com</a>
                     </li>
                 </ul>
             </div>
@@ -67,9 +81,9 @@
         <div class="row text-center">
             <div class="col-md-12">
                 <img src="assets/img/fullcropvb.png" style ="padding-top: 60px; width: 180px;">
-                <h1 id="fname" class="head-main">Val Burk</h1>
+                <h1 class="head-main">Val Burk</h1>
                 <h2 class="head-sub-main">Web Developer</h2>
-                <a class="btn btn-danger btn-lg " href="#about">Resume</a><a class="btn btn-default btn-lg" href="#contact-sec">Contact </a>
+                <a class="btn btn-danger btn-lg " href="#about">Read More </a><a class="btn btn-default btn-lg" href="#contact-sec">Contact </a>
                 <div class="head-last"></div>
 
             </div>
@@ -87,10 +101,10 @@
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Resume</h1>
-                    <a class = 'resume' href="Resume.pdf">
-                        <h3> Click here to view my full resume! (PDF)
-                        </h3>
-                    </a>
+                    <h4>
+                        <strong> When I actually have relevant resume items, I'll put em here.
+                        </strong>
+                    </h4>
                 </div>
 
             </div>
@@ -100,41 +114,45 @@
 
                     <div class="about-div">
 
+                        <i class="fa fa-camera fa-4x main-color-red"></i>
+
+
+                        <h3>Resume Item 1 </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+
+                    <div class="about-div">
+
+                        <i class="fa fa-briefcase fa-4x main-color-red"></i>
+
+
+                        <h3>Resume Item 2 </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+
+                    <div class="about-div">
+
                         <i class="fa fa-desktop fa-4x main-color-red"></i>
 
 
-                        <h3> Full-Stack Skills </h3>
+                        <h3>Resume Item 3 </h3>
                         <p>
-                            My front-end skills include JavaScript, jQuery, AJAX, API Integration, CSS, Bootstrap, and HTML5. I also have back-end experience with PHP, Laravel, and MySQL.  
-
-                    </div>
-
-                </div>
-                <div class="col-md-3 ">
-
-                    <div class="about-div">
-
-                        <i class="fa fa-list-alt fa-4x main-color-red"></i>
-
-
-                        <h3>Additional Skills</h3>
-                        <p>
-                          I am familiar with developer tools such as Git/Github, SequelPro and Vagrant VM. I have additional experience with helpful tools such as Adobe InDesign, Photoshop, Illustrator, Dreamweaver, MS Office.
-                        </p>
-
-                    </div>
-
-                </div>
-                <div class="col-md-3 ">
-                    <div class="about-div">
-
-                        <i class="glyphicon glyphicon-book fa-4x main-color-red"></i>
-
-
-                        <h3>Education  </h3>
-                        <p>
-                            Codeup - May 2017 <br> Codeup is an immersive, full- stack career accelerator that provides students with 536+ hours of expert instruction in
-                          software development.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
                         </p>
 
                     </div>
@@ -144,29 +162,43 @@
 
                     <div class="about-div">
 
-                        <i class="fa fa-wrench fa-4x main-color-red"></i>
+                        <i class="fa fa-folder fa-4x main-color-red"></i>
 
 
-                        <h3>Experience </h3>
+                        <h3>Resume Item 4 </h3>
                         <p>
-                            uBreakiFix - Technician <br> While wokring at uBreakiFix, I preformed hardware and software repairs on smartphones, computers, tablets, and other miscellaneous devices.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
                         </p>
 
                     </div>
 
                 </div>
-
             </div>
             <div class="row text-center">
                 <div class="col-md-12">
-                    <h2>About Me</h2>
-                    <p class = 'about'>
-                       I've always had an interest in technology and began working in repair. I love problem solving and critical thinking, but I'm also creative. I realized software development would be the perfect way to blend the two while still incorperating my love for technology. I then transitioned from the hardware/repair end to the software development end of technology. I'm a motivated and organized full-stack web developer seeking a position that can utilize both my creativity and critical thinking skills.
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
                     </p>
                 </div>
 
             </div>
-            
         </div>
 
 
@@ -175,7 +207,26 @@
     <section class="for-full-back " id="Parallax-one">
         <div class="container">
 
-           
+            <div class="row text-center for-parallax-one">
+                <div class="col-md-6 ">
+                    <h3>Lorem ipsum dolor</h3>
+                    <h4>
+                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        </strong>
+                    </h4>
+                </div>
+                <div class="col-md-6 ">
+                    <h3>Lorem ipsum dolor</h3>
+                    <h4>
+                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        </strong>
+                    </h4>
+                </div>
+            </div>
+
+
         </div>
     </section>
     <!--./parallax one-->
@@ -190,9 +241,9 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1> Web Portfolio</h1>
+                    <h1>Portfolio</h1>
                     <h4>
-                        <strong> Some of my web development projects
+                        <strong> And when I have portfolio items, they can go here.
                         </strong>
                     </h4>
                 </div>
@@ -206,11 +257,11 @@
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Simple Simoné Game</li>
-                            <li class="main-price"><img id=simple src="assets/img/Simple.png" height=100 width=200> </li>
-                            <li>A Simple Simon game made using jQuery, JavaScript, HTML, and CSS</li>
+                            <li class="plan-head">JavaScript Calculator</li>
+                            <li class="main-price">Image</li>
+                            <li>Description</li>
                             <li class="bottom">
-                                <a href="simplesimon.html" class="btn btn-default viewbut">VIEW</a>
+                                <a href="#contact-sec" class="btn btn-default">VIEW</a>
                             </li>
                         </ul>
                     </div>
@@ -218,31 +269,31 @@
                     <div class="col-md-3">
                         <ul class="plan">
                             <li class="plan-head">Weather App</li>
-                            <li class="main-price"><img src="assets/img/weather.png" height="100" width="200"></li>
-                            <li>Exercise that includes the Google Maps and OpenWeatherMap API's</li>
+                            <li class="main-price">Image</li>
+                            <li>Description</li>
                             <li class="bottom">
-                                <a href="weather.html" class="btn btn-default viewbut">VIEW</a>
+                                <a href="#contact-sec" class="btn btn-default">VIEW</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">JavaScript Calculator</li>
-                            <li class="main-price"><img src="assets/img/calc.png" height="100" width="55"></li>
-                            <li>A calculator that uses JavaScript, HTML, and CSS</li>
+                            <li class="plan-head">Simple Simoné Game</li>
+                            <li class="main-price">Image</li>
+                            <li>Description</li>
                             <li class="bottom">
-                                <a href="calculator.html" class="btn btn-default viewbut">VIEW</a>
+                                <a href="#contact-sec" class="btn btn-default">VIEW</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">ShoeLaLa</li>
-                            <li class="main-price"><img src="assets/img/shoe.png" height="100" width="200"></li>
-                            <li> A full-stack adlister site for men's shoes that allows users to create listings.</li>
+                            <li class="plan-head">Portfolio Item 4</li>
+                            <li class="main-price">Image</li>
+                            <li>Description</li>
                             <li class="bottom">
-                                <a href="#" class="btn btn-default viewbut">VIEW</a>
+                                <a href="#contact-sec" class="btn btn-default">VIEW</a>
                             </li>
                         </ul>
                     </div>
@@ -256,8 +307,21 @@
 
     <section class="for-full-back for-parallax-two" id="Parallax-two">
         <div class="container">
+
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1>Lorem ipsum dolor sit</h1>
+                    <h4>
+                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        </strong>
+                    </h4>
+                </div>
+
             </div>
 
+
+        </div>
     </section>
     <!--./parallax two-->
     <!--End Pricing Section -->
@@ -273,25 +337,33 @@
                     <div>
                         <span><i class="fa fa-home"></i>&nbsp; San Antonio, TX </span>
                         <br />
-                        <span><i class="fa fa-phone"></i>&nbsp; (210)-289-6484</span>
+                        <span><i class="fa fa-phone"></i>&nbsp;Phone: (210)-289-6484</span>
                         <br />
-                        <span><i class="fa fa-envelope-o"></i>&nbsp; valanneburk@gmail.com</span>
+                        <span><i class="fa fa-envelope-o"></i>&nbsp;E-Mail: valerieburk@aim.com</span>
                         <br />
-                        <span><i class="fa fa-linkedin"></i>&nbsp; linkedin.com/in/valburk</span>
-                        <br />
-                        <span><i class="fa fa-github"></i>&nbsp; github.com/valburk</span>
+                        <span><i class="fa fa-globe"></i>&nbsp;Web: www.yourdomain.com</span>
                         <br />
                     </div>
                     <br />
+                    <div id="social-icon">
+                        <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
+                    </div>
                 </div>
                 <div class="col-md-7">
                     <h2> Send me an E-mail</h2>
                     <p>
-                        For more information or inquries you can send me an email here!
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
                        
                        
                     </p>
-                    <form action="https://www.elformo.com/forms/8509437a-afb7-44ed-b807-bc4cc06d3a0c" method="post" accept-charset="UTF-8">
+                    <form>
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-group">
@@ -300,14 +372,14 @@
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input type="email" id='email' name ="email" class="form-control" required="required" placeholder="Email address">
+                                    <input type="text" class="form-control" required="required" placeholder="Email address">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
                                 <div class="form-group">
-                                    <textarea name="comment" id="comment" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
+                                    <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-default">Submit </button>
@@ -324,7 +396,7 @@
     <!--End Contact Section -->
     <!--footer Section -->
     <div class="for-full-back " id="footer">
-
+        
          
     </div>
     <!--End footer Section -->
